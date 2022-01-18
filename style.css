@@ -1,9 +1,44 @@
-.container {
+body {
+    background: rosybrown;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    margin: 2% 2% 0% 2%;
+}
+header h6 {
+    margin: 0% 2% 2% 2%;
+}
+#container {
     display: grid;
     height: 90vh;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 0.2fr;
-
+    padding: 2%;
 }
 
+#container div {
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 4%;
+    align-items: center;
+    justify-content: center;
+}
+
+.divHover {
+    background-color: lime;
+}
+
+h1 {
+    text-align: center;
+}
+button {
+    margin-bottom: 2vh;
+}
