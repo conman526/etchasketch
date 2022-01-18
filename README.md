@@ -1,7 +1,7 @@
 # Etch-a-Sketch 'Game'
 
 This is a simple program where the user can click on squares and they will change colors. This grid can then be reset.
-For a live preview click the link at the upper right.
+For a live preview click the link in the 'About' section.
 
 Potential future improvements:
  - add ability for user to customize the grid size.
